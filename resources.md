@@ -59,6 +59,7 @@ This page collects tools, libraries, benchmarks, and background material useful 
 - [ProofWriter](https://allenai.org/data/proofwriter) - Natural language reasoning with proofs.
 - [FOLIO](https://github.com/Yale-LILY/FOLIO) - First-order logic reasoning benchmark.
 - [BIG-Bench Hard](https://arxiv.org/abs/2210.09261) - Hard reasoning tasks from BIG-Bench.
+- [SysMoBench](https://www.microsoft.com/en-us/research/publication/sysmobench-evaluating-ai-on-formally-modeling-complex-real-world-systems/) - Benchmark for AI-generated TLA+ models of real-world systems.
 
 ## Conferences and Venues to Watch
 
