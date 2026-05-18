@@ -6,6 +6,10 @@ This page reorganizes papers from the main list by technical topic. It is meant 
 
 - [RvLLM: LLM Runtime Verification with Domain Knowledge](https://openreview.net/forum?id=XdwPWKbxd9&noteId=ZzUTHYqdwG)  
   Runtime verification for LLM outputs with a lightweight domain specification language.
+- [Enforcing Temporal Constraints for LLM Agents](https://openreview.net/forum?id=VeRehDnGJJ)
+  Runtime enforcement of temporal and state-dependent constraints for tool-calling agents.
+- [ProbGuard: Probabilistic Runtime Monitoring for LLM Agent Safety](https://arxiv.org/abs/2508.00500)
+  Proactive runtime monitoring with learned Markov models over symbolic agent states.
 - [Formally Specifying the High-Level Behavior of LLM-Based Agents](https://arxiv.org/abs/2310.08535)  
   Declarative specifications, including temporal logic, for high-level agent behavior.
 - [LogicGuard: Improving Embodied LLM Agents through Temporal Logic Based Critics](https://arxiv.org/abs/2507.03293)  
@@ -23,6 +27,10 @@ This page reorganizes papers from the main list by technical topic. It is meant 
   Hoare-style contracts and symbolic state for verified tool execution.
 - [Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents](https://arxiv.org/abs/2602.22302)  
   Design-by-contract for autonomous agents under LLM non-determinism.
+- [AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents](https://arxiv.org/abs/2503.18666)
+  Trigger-predicate-enforcement rules for safe LLM agent execution.
+- [Enforcing Temporal Constraints for LLM Agents](https://openreview.net/forum?id=VeRehDnGJJ)
+  DSL and SMT-backed constrained generation for compliant tool-call sequences.
 - [Position: Trustworthy AI Agents Require the Integration of Large Language Models and Formal Methods](https://openreview.net/forum?id=wkisIZbntD)  
   Position paper on formal methods for trustworthy agents.
 - [SpecMAS: A Multi-Agent System for Self-Verifying System Generation via Formal Model Checking](https://github.com/Idsl-group/SpecMAS)  
@@ -53,6 +61,8 @@ This page reorganizes papers from the main list by technical topic. It is meant 
   LLM-to-solver pipelines for logical reasoning.
 - [Large Language Models Can Solve Real-World Planning Rigorously with Formal Verification Tools](https://aclanthology.org/2025.naacl-long.176/)  
   Natural language to formal constraints, then solver-backed planning.
+- [Bridging LLM Planning Agents and Formal Methods: A Case Study in Plan Verification](https://arxiv.org/abs/2510.03469)
+  Natural language plans to Kripke structures and LTL for model-checking-based plan verification.
 - [Formal-LLM: Integrating Formal Language and Natural Language for Controllable LLM-based Agents](https://arxiv.org/abs/2402.00798)  
   Automata-supervised agent planning and execution.
 
@@ -68,7 +78,7 @@ This page reorganizes papers from the main list by technical topic. It is meant 
   Certification algorithms for transformer models.
 - [Vertex-Softmax: Tight Transformer Verification via Exact Softmax Objective Optimization](https://arxiv.org/abs/2605.10974)  
   Transformer verification through softmax objective optimization.
-- [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_42)  
+- [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)
   Foundational SMT approach for neural network verification.
 - [Marabou: A Framework for Verification and Analysis of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)  
   Neural network verification framework.
@@ -85,6 +95,10 @@ This page reorganizes papers from the main list by technical topic. It is meant 
   Multi-level formal safety evaluation for embodied agents.
 - [LogicGuard: Improving Embodied LLM Agents through Temporal Logic Based Critics](https://arxiv.org/abs/2507.03293)  
   LTL critics for embodied decision making.
+- [ProbGuard: Probabilistic Runtime Monitoring for LLM Agent Safety](https://arxiv.org/abs/2508.00500)
+  Probabilistic risk prediction for autonomous driving and embodied household agents.
+- [Bridging LLM Planning Agents and Formal Methods: A Case Study in Plan Verification](https://arxiv.org/abs/2510.03469)
+  LTL and model checking for validating natural language plans.
 - [PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change](https://arxiv.org/abs/2206.10498)  
   Planning and reasoning about change.
 - [TCP: a Benchmark for Temporal Constraint-Based Planning](https://aclanthology.org/2025.emnlp-main.1142.pdf)  
@@ -102,6 +116,8 @@ This page reorganizes papers from the main list by technical topic. It is meant 
   Formal language hierarchy as a lens on LLM reasoning.
 - [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](https://aclanthology.org/2025.acl-long.1068/)  
   Program semantics and formal specification inference.
+- [SysMoBench: Evaluating AI on Formally Modeling Complex Real-World Systems](https://www.microsoft.com/en-us/research/publication/sysmobench-evaluating-ai-on-formally-modeling-complex-real-world-systems/)
+  TLA+ modeling benchmark for complex real-world systems.
 - [ProofWriter](https://allenai.org/data/proofwriter)  
   Natural-language proof and rule reasoning.
 - [FOLIO: Natural Language Reasoning with First-Order Logic](https://github.com/Yale-LILY/FOLIO)  
